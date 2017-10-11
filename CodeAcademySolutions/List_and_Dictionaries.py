@@ -71,7 +71,7 @@ for x in start_list:
 
 print square_list
 
-#New entries Dictionary
+#### New entries Dictionary
 menu = {} # Empty dictionary
 menu['Chicken Alfredo'] = 14.50 # Adding new key-value pair
 print menu['Chicken Alfredo']
@@ -83,3 +83,23 @@ menu['Ugali'] = 5.5
 
 print "There are " + str(len(menu)) + " items on the menu."
 print menu
+
+#### Deleting from Dictionary
+# key - animal_name : value - location
+zoo_animals = { 'Unicorn' : 'Cotton Candy House',
+'Sloth' : 'Rainforest Exhibit',
+'Bengal Tiger' : 'Jungle House',
+'Atlantic Puffin' : 'Arctic Exhibit',
+'Rockhopper Penguin' : 'Arctic Exhibit'}
+# A dictionary (or list) declaration may break across multiple lines
+
+# Removing the 'Unicorn' entry. (Unicorns are incredibly expensive.)
+del zoo_animals['Unicorn']
+
+# Your code here!
+del zoo_animals['Sloth']
+del zoo_animals['Bengal Tiger']
+
+zoo_animals['Rockhopper Penguin'] = 'Cow'
+
+print zoo_animals
