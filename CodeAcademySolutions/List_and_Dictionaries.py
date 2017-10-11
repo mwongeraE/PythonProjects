@@ -51,3 +51,10 @@ duck_index = animals.index("duck")# Use index() to find "duck"
 animals.insert(duck_index, "cobra")
 
 print animals # Observe what prints after the insert operation
+
+#For loop in Lists
+my_list = [1,9,3,8,5,7]
+
+for number in my_list:
+  # Your code here
+  print 2*number
