@@ -70,3 +70,16 @@ for x in start_list:
   square_list.sort()
 
 print square_list
+
+#New entries Dictionary
+menu = {} # Empty dictionary
+menu['Chicken Alfredo'] = 14.50 # Adding new key-value pair
+print menu['Chicken Alfredo']
+
+# Your code here: Add some dish-price pairs to menu!
+menu['Githeri'] = 3.00
+menu['Pilau'] = 2.4
+menu['Ugali'] = 5.5
+
+print "There are " + str(len(menu)) + " items on the menu."
+print menu
