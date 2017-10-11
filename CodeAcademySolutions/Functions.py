@@ -33,9 +33,14 @@ def deserves_another(n):
 def cube(number):
   return number ** 3
 
-#Cube function
+#Cube function 6/19
 def by_three(number):
   if number % 3 == 0:
   	return cube(number)
   else:
     return False
+
+#import from module
+import math # Imports the math module
+everything = dir(math) # Sets everything to a list of things from math
+print everything # Prints 'em all!
