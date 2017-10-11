@@ -45,6 +45,9 @@ import math # Imports the math module
 everything = dir(math) # Sets everything to a list of things from math
 print everything # Prints 'em all!
 
+from math import *
+print sqrt(13689)
+
 #Here be dragons
 def biggest_number(*args):
   print max(args)
@@ -57,7 +60,13 @@ def smallest_number(*args):
 def distance_from_zero(arg):
   print abs(arg)
   return abs(arg)
-
+def shut_down(s):
+    if s == "yes":
+        return "Shutting down"
+    elif s == "no":
+        return "Shutdown aborted"
+    else:
+        return "Sorry"
 biggest_number(-10, -5, 5, 10)
 smallest_number(-10, -5, 5, 10)
 distance_from_zero(-10)
