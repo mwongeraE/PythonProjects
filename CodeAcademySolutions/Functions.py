@@ -22,3 +22,10 @@ def power(base,exponent):  # Add your parameters here!
   print "%d to the power of %d is %d." % (base, exponent, result)
 
 power(37, 4)  # Add your arguments here!
+
+#Functions calling Functions
+def one_good_turn(n):
+  return n + 1
+
+def deserves_another(n):
+  return one_good_turn(n) + 2
