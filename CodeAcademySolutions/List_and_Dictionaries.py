@@ -30,3 +30,15 @@ list_length = len(suitcase) # Set this to the length of suitcase
 
 print "There are %d items in the suitcase." % (list_length)
 print suitcase
+
+#List Slicing
+suitcase = ["sunglasses", "hat", "passport", "laptop", "suit", "shoes"]
+
+# The first and second items (index zero and one)
+first = suitcase[0:2]
+
+# Third and fourth items (index two and three)
+middle = suitcase[2:4]
+
+# The last two items (index four and five)
+last =  suitcase[4:6]
