@@ -12,3 +12,11 @@ choice = raw_input('Enjoying the course? (y/n)')
 
 while choice != 'y' and choice != 'n':  # Fill in the condition (before the colon)
   choice = raw_input("Sorry, I didn't catch that. Enter again: ")
+
+#### Infinite loops
+count = 0
+
+while count < 10: # Add a colon
+  print count
+  count += 1
+  # Increment count
